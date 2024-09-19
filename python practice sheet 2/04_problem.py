@@ -10,7 +10,7 @@ center_y=0
 
 radius=10
 
-distance= float(math.sqrt((x - center_x) ** 2 + (y - center_y) ** 2))
+distance= float(((x - center_x) ** 2 + (y - center_y) ** 2))**(1/2)
 
 if distance <= radius:
     print(f"The point ({x}, {y}) is inside the circle.")
