@@ -21,7 +21,7 @@ def triangle_area(x1, y1, x2, y2, x3, y3):
 # area of origianl triangle
 original=triangle_area(0,0,200,0,0,100)
 print(original)
-
+A
 # area of other remaining triangles
 area1= triangle_area(x,y,200,0,0,100)
 area2= triangle_area(0,0,x,y,0,100)

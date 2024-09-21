@@ -1,1 +1,0 @@
-decimal_value = int(charecter, 16)

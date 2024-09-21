@@ -10,4 +10,4 @@ future_day = (a + b) % 7
 
 
 # Output the future day of the week
-print(f"In {future_day} days, it will be {days_in_week[future_day]}.")
+print(f"In {days_in_week[a]} days, future day will be {days_in_week[future_day]}.")
